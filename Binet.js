@@ -3,3 +3,4 @@ var fib = function(n) {
     return (Math.pow(1 + sqrt5, n) - Math.pow(1 - sqrt5, n)) / Math.pow(2, n) / sqrt5
 };
 // using binet's formula, runtime is faster
+// Math.pow(base, exponent)
